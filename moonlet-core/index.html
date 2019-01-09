@@ -66,39 +66,10 @@
 			<div class="tsd-panel tsd-typography">
 				<h1 id="moonlet-core-package">Moonlet - Core Package</h1>
 				<p><a href="https://travis-ci.org/cryptolandtech/moonlet-core"><img src="https://travis-ci.org/cryptolandtech/moonlet-core.svg?branch=master" alt="Build Status"></a> <a href="https://coveralls.io/github/cryptolandtech/moonlet-core"><img src="https://coveralls.io/repos/github/cryptolandtech/moonlet-core/badge.svg" alt="Coverage Status"></a></p>
+				<h2 id="repository">Repository</h2>
+				<p><a href="https://github.com/cryptolandtech/moonlet-core">Code Repository</a></p>
 				<h2 id="usage">Usage</h2>
 				<p>See <a href="https://github.com/cryptolandtech/moonlet-core-usage">moonlet-core-usage repository</a></p>
-				<h2 id="setup">Setup</h2>
-				<p><code>npm install</code></p>
-				<h2 id="build-lib">Build lib</h2>
-				<p><code>npm run build</code></p>
-				<h2 id="testing">Testing</h2>
-				<p>Run the whole testing suite</p>
-				<pre><code class="language-bash">npm run <span class="hljs-built_in">test</span></code></pre>
-				<p>Single test run</p>
-				<pre><code class="language-bash">npm run <span class="hljs-built_in">test</span>-single <span class="hljs-built_in">test</span>/testfile.ts</code></pre>
-				<p>Run tests in specific path</p>
-				<pre><code class="language-bash">npm run <span class="hljs-built_in">test</span>-single <span class="hljs-string">"test/1.core/*.ts"</span></code></pre>
-				<p>Test Coverage</p>
-				<pre><code class="language-bash">npm run coverage</code></pre>
-				<p><strong><em>All test commands have a -reuse option available, meant to allow developers to keep TestRPC running between multiple invocations.</em></strong></p>
-				<p>Example:</p>
-				<pre><code class="language-bash">npm run <span class="hljs-built_in">test</span>-reuse
-npm run <span class="hljs-built_in">test</span>-single-reuse <span class="hljs-built_in">test</span>/testfile.ts
-npm run coverage-reuse</code></pre>
-				<h2 id="testrpc-helpers">TestRPC Helpers</h2>
-				<p>Start All test rpcs</p>
-				<pre><code class="language-bash">npm run start-all-rpcs</code></pre>
-				<p>Stop all running test rpcs ( that have pids stored )</p>
-				<pre><code class="language-bash">npm run stop-all-rpcs</code></pre>
-				<h2 id="adding-support-for-new-blockchains">Adding support for new blockchains</h2>
-				<p>Fork this repo.</p>
-				<p>add your identifier in src/core/blockchain.ts</p>
-				<p>copy src/blockchain/ethereum to src/blockchain/yourblockchain and create your types</p>
-				<p>add your class indexer into src/class.store.ts</p>
-				<p>copy test/ethereum to test/yourblockchain and update the tests</p>
-				<p>make sure to add your testrpc setup scripts in the /scripts folder</p>
-				<p>Once complete, submit a PR.</p>
 				<h2 id="license">License</h2>
 				<p>MIT</p>
 			</div>
